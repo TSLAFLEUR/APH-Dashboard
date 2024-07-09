@@ -18,7 +18,23 @@ Run the `install.ps1` script to download necessary requirements
 
 ## Running
 
+### If running Windows:
+
 Run `APH_Dashboard.ps1` script.
+
+### If running Linux:
+
+Open 1st terminal
+
+`cd frontend`
+
+`npm start`
+
+Open 2nd terminal 
+
+`cd backend`
+
+`nodemon index.j`
 
 ## Updating information
 
