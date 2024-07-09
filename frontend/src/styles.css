@@ -1,0 +1,231 @@
+:root {
+	--darksteelblue: rgb(52, 97, 134);
+  }
+  
+  .App {
+	font-family: sans-serif;
+	text-align: center;
+	background-color: steelblue;
+	color: whitesmoke;
+  }
+  
+  .col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+	margin: 10px;
+  }
+  
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: stretch;
+	margin: 10px;
+  }
+
+  .altrow {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1px;
+	height:5%
+  }
+  
+  .selectionBox {
+	background-color: var(--darksteelblue);
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 10px;
+	width:225px;
+	height:80px;
+  }
+
+  .sInfoBox {
+	background-color: steelblue;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 10px;
+	width:250px;
+	height:400px;
+  }
+  
+  .mInfoBox {
+	background-color: steelblue;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 10px;
+	min-width:370px;
+	min-height:350px;
+  }
+  
+  .lInfoBox {
+	background-color: steelblue;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 10px;
+	width:600x;
+	height:350px;
+  }
+  
+  .xlInfoBox {
+	background-color: steelblue;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 10px;
+	width:1050px;
+	height:400px;
+  }
+  
+  .xxlInfoBox {
+	background-color: steelblue;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	margin: 0px;
+	padding: 0px;
+	min-height: 800px;
+	width:1400px;
+
+  }
+  
+  .picture {
+	size-adjust: 50%;
+	width: 250px;
+	height: 250px;
+  }
+  
+  .dropbtn {
+	background-color: steelblue;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	width: 200px;
+  }
+  
+  .button {
+	background-color: steelblue;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin:7px;
+  }
+  
+  .button:hover {
+	color: white;
+  }
+  
+  .button:active {
+	background-color: var(--darksteelblue);
+	box-shadow: 0 4px #666;
+	transform: translateY(5px);
+  }
+  
+  .dropdownButton{
+	background-color: steelblue;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	width:200px;
+  }
+  
+  .dropdownButton:hover {
+	background-color:var(--darksteelblue);
+	color: white;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: steelblue;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+	background-color: steelblue;
+  }
+  
+  .top{
+	text-align: left;
+	text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -2px black ;
+	background-color: steelblue;
+	padding:5px;
+	margin:5px;
+	margin-left: 25px;
+  }
+  
+  .body{
+	background-color: lightsteelblue;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	margin-top:5px;
+	height:90%
+  }
+  
+  .logo {
+	text-align: left;
+	background-color: steelblue;
+	width: 200px;
+	padding:2px;
+	margin:2px;
+  }
